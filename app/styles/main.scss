@@ -1,3 +1,13 @@
+/*Color Pallete*/
+$pantone138C: #F3930D; /*orange*/
+$pantone171C: #EF7540; /*salmon*/
+$pantone412C: #190E00; /*dark-black*/
+$pantone395C: #F4ED35; /*yellow*/
+$pantone601C: #FDF8A7; /*meringue*/
+$pantoneBlack7: #F3930D; /*grey*/
+
+
+
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 // bower:scss
@@ -91,3 +101,5 @@ body {
     border-bottom: 0;
   }
 }
+
+
