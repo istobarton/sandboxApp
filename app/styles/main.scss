@@ -54,9 +54,15 @@
     &:hover,
     &:focus {
       text-decoration: none;
-      color: $dropdown-link-hover-color;
-      background-color: $dropdown-link-hover-bg;
+      color: $white;
+      background-color: $pantone171C;
+      min-width: 100%;
+      white-space: nowrap;
     }
+  }
+
+  .dropdown{
+
   }
 
   .colorSelector {
@@ -90,6 +96,10 @@
 
 
   /*USER INPUT*/
+
+  .userInputTitle{
+    text-align: center;
+  }
 
   .userSelections{
     color: $pantone412C;
@@ -141,9 +151,15 @@
     text-align: center;
     }
 
-  .appContent {
-    background-color: black;
+  .appContent{
+    img{
+      width: 100%;
     }
+  }
+
+  #phoneSelector {
+    margin-bottom: 25px;
+  }
 
 
   /* Custom page footer */
@@ -155,7 +171,7 @@
     height: 50px;
     bottom: 0;
     width: 100%;
-}
+  }
 
 
 /* Responsive: Portrait tablets and up */
