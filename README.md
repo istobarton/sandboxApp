@@ -35,11 +35,5 @@ Link to Google Drive folder with styleguide and images: https://drive.google.com
 - Styling Guide font mispelled. Font source: https://www.google.com/fonts/specimen/Rajdhani
 - Don't forget you have glyphcons available
 - Make sure you add issues at 4PM and write out next steps
-- Add contact information to footer
-- Does this need to adjust the content within the APP image? Or is this just styling? Adjust for timing.
-- Are the '<>' on the user input form actual tags or images? 
--Separate User Selection and content width based into Angular Components
--Wasted too much time trying to get custom color-picker to work. Abandoning.
--Need to Link Color Picker and text input
-
+-See https://waffle.io/istobarton/sandboxApp for pending issues.
 
