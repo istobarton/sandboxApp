@@ -34,6 +34,7 @@
     font-family: $main;
     background-color: $pantoneBlack7;
     color: $white;
+    border-radius: 0;
   }
 
   a:link, a:visited, a:visited:active{
@@ -61,10 +62,6 @@
     }
   }
 
-  .dropdown{
-
-  }
-
   .colorSelector {
     width: 100%;
   }
@@ -82,18 +79,31 @@
     }
   }
 
-  .navbar-default {
-    background-color: $pantone412C;
-    border-color: $pantoneBlack7;
+  .specialButton{
+    width: initial;
+    border: none;
+  }
 
-    .navbar-brand {
-      height: inherit;
-      img{
-        height: 50px;
-      }
+  .sandboxLogo{
+    p {
+      font-size: 30px;
+      weight:bold;
+      color: white;
     }
   }
 
+  .navbar-default .navbar-nav > li > a {
+    color:$white;
+  }
+
+  .navbar-default .navbar-nav > li > a:hover{
+    color:$pantone171C;
+  }
+
+  .navbar-default {
+    background-color: $pantone412C;
+    border-color: $pantoneBlack7;
+  }
 
   /*USER INPUT*/
 
@@ -162,16 +172,7 @@
   }
 
 
-  /* Custom page footer */
-  .footer {
-    text-align: center;
-    padding-top: 19px;
-    color: $white;
-    position: fixed;
-    height: 50px;
-    bottom: 0;
-    width: 100%;
-  }
+
 
 
 /* Responsive: Portrait tablets and up */
