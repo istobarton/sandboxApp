@@ -7,6 +7,11 @@ $pantone601C: #FDF8A7; /*meringue*/
 $pantoneBlack7: #F3930D; /*grey*/
 
 
+/*Fonts*/
+@import url(https://fonts.googleapis.com/css?family=Rajdhani:400,700,300);
+
+$rajdhani : 'Rajdhani', sans-serif;
+
 
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 

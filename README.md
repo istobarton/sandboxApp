@@ -22,3 +22,7 @@
 - More descriptive titles for content creation
 - Add Back button
 - Represent Name and Subtext above image of app
+
+
+#Notes as I work - 
+-Styling Guide font mispelled. Font source: https://www.google.com/fonts/specimen/Rajdhani
