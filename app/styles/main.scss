@@ -6,7 +6,7 @@
   $pantone412C: #190E00; /*dark-black*/
   $pantone395C: #F4ED35; /*yellow*/
   $pantone601C: #FDF8A7; /*meringue*/
-  $pantoneBlack7: #F3930D; /*grey*/
+  $pantoneBlack7: #474139; /*grey*/
   $white: #ffffff; /*not in style-guide, but on website*/
 
 
@@ -30,68 +30,93 @@
   }
 
 /*PAGE CONTENT*/
-
-/* NAVBAR */
-.header {
-  border-bottom: 1px solid #e5e5e5;
-
-  /* Make the masthead heading the same height as the navigation */
-  h3 {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 40px;
-    padding-bottom: 19px;
+  body{
+    font-family: $main;
+    background-color: $pantoneBlack7;
+    color: $white;
   }
-}
 
+  a{
+    text-decoration: none;
+    color: white;
+  }
 
+  a:hover{
+    text-decoration: none;
+    color: $pantone395C;
+  }
 
-.navbar-default {
-  background-color: $pantone412C;
-  border-color: $pantoneBlack7;
+  /* NAVBAR */
+  .header {
+    border-bottom: 1px solid #e5e5e5;
 
-  .navbar-brand {
-    height: inherit;
-    img{
-      height: 50px;
+    /* Make the masthead heading the same height as the navigation */
+    h3 {
+      margin-top: 0;
+      margin-bottom: 0;
+      line-height: 40px;
+      padding-bottom: 19px;
     }
   }
-}
 
+  .navbar {
 
-/*USER INPUT*/
-.userFormNavBar{
-  text-decoration: none;
-  font-family: $main;
+  }
+
+  .navbar-default {
+    background-color: $pantone412C;
+    border-color: $pantoneBlack7;
+
+    .navbar-brand {
+      height: inherit;
+      img{
+        height: 50px;
+      }
+    }
   }
 
 
-/*APP CONTENT*/
-.appContent{
-  background-color: black;
-  }
+  /*USER INPUT*/
+  .userFormNavBar {
+    text-decoration: none;
+    font-family: $main;
+    text-align: center;
+    }
 
-/* Custom page footer */
-.footer {
-  padding-top: 19px;
-  color: $white;
-  border-top: 1px solid #e5e5e5;
-}
+
+  /*APP CONTENT*/
+  .appFormNavBar {
+    text-decoration: none;
+    font-family: $main;
+    text-align: center;
+    }
+
+  .appContent {
+    background-color: black;
+    }
+
+
+  /* Custom page footer */
+  .footer {
+    text-align: center;
+    padding-top: 19px;
+    color: $white;
+  }
 
 /* Responsive: Portrait tablets and up */
-@media screen and (min-width: 768px) {
-  .container {
-    max-width: 730px;
+  @media screen and (min-width: 768px) {
+    .container {
+      max-width: 730px;
+    }
+
+    /* Space out the masthead */
+    .header {
+      margin-bottom: 30px;
+    }
   }
 
-  /* Space out the masthead */
-  .header {
-    margin-bottom: 30px;
+  .navbar navbar-default {
+    background-color: $pantoneBlack7;
   }
-}
-
-.navbar navbar-default {
-  background-color: $pantoneBlack7;
-}
 
 
