@@ -2,7 +2,8 @@
   "name": "sandboxapp",
   "private": true,
   "dependencies": {
-    "bootstrap-sass": "~3.3.5"
+    "bootstrap-sass": "~3.3.5",
+    "mjolnic-bootstrap-colorpicker": "xaguilars-bootstrap-colorpicker#~2.3.0"
   },
   "overrides": {
     "bootstrap-sass": {

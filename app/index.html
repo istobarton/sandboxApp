@@ -52,7 +52,7 @@
       <div class="row">
 
       <!USERFORM>
-        <div class="col-sm-6">
+        <div class="col-lg-8">
 
           <div class="userFormNavBar">
             <span><a href="#"> NAME </a></span>
@@ -62,17 +62,61 @@
             <span><a href="#"> CREATE </a></span>
           </div>    
 
-          <div className="">
-            
+          <!--ANGULAR COMPONENT GOES HERE REMOVE CONTENT LATER-->
+          <div class="userSelections">
+            <div class="contentSelect arrow_box">
+              <h1>APP CONTENT</h1>              
+              <h4>Text Style<h4>
+              <div class="row">
+                <div class="col-lg-8">
+                    <input type="text" value="" class="form-control" />
+                    <span class="input-group-addon"><i></i></span>
+                </div>
+                <div class="col-lg-4">
+                  <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                      Dropdown
+                      <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" value="">
+                      <li><a href="#" class="arial">Arial</a></li>
+                      <li><a href="#" class="arialBlack">Arial Black</a></li>
+                      <li><a href="#" class="comicSans">Comic Sans</a></li>
+                      <li><a href="#" class="Impact">Impact</a></li>
+                      <li><a href="#" class="Lucida">Lucida Sans Unicode</a></li>
+                      <li><a href="#" class="Tahoma">Tahoma</a></li>
+                      <li><a href="#" class="Trebuchet">Trebuchet MS</a></li>
+                      <li><a href="#" class="Verdana">Verdana</a></li>
+                    </ul>
+                  </div> <!close dropdown>
+                </div>
+              </div>
+
+              <!--color selector, font-->
+              <h4>Title Style<h4>
+              <!--color selector, font-->
+              <h4>Subtitle Style<h4>
+              <!--color selector, font-->
+              <h4>Primary Header Style<h4>
+              <!--color selector, font-->
+              <h4>Secondary Header Style<h4>
+              <!--color selector, font-->
+              <h4>Tertiary Header Style<h4>
+              <!--color selector, font-->
+              <h4>Background Color<h4>
+              <!--color selector-->
+              <h4>Navigation Bar Color<h4>
+              <h4>Button Color<h4>
+            </div>
           </div>
 
         </div>
 
         <!APP DISPLAY>
-          <div class="col-sm-6">
+          <div class="col-lg-4">
             <div class="appFormNavBar">
 
-              <h4>Your App's Name Here</h4>
+              <h4>Dylan's App</h4>
 
               <!APP DISPLAY>
               <div class="dropdown">
@@ -95,11 +139,14 @@
               </div> <!close dropdown>
             </div> <!close appFormNavBar>
 
-            <div class="col-lg-10 col-lg-offset-1">
-              <div class="appContent">test</div>
+            <!--ANGULAR COMPONENT GOES HERE-->
+            <div class="appContent">
+              <div class="col-lg-10 col-lg-offset-1">
+                <div class="appContent">test</div>
+              </div>
             </div>
 
-          </div> <!close col-sm-6>
+          </div> <!close col>
 
         <!FOOTER>
         <div class="footer">
@@ -113,6 +160,7 @@
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/mjolnic-bootstrap-colorpicker/dist/js/bootstrap-colorpicker.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
@@ -135,17 +183,8 @@
 
     <!-- build:js scripts/main.js -->
     <script src="scripts/main.js"></script>
-    <!-- endbuild -->
 
-    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-    <script>
-      (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
-      function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
-      e=o.createElement(i);r=o.getElementsByTagName(i)[0];
-      e.src='https://www.google-analytics.com/analytics.js';
-      r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
-      ga('create','UA-XXXXX-X');ga('send','pageview');
-    </script>
+    <!-- endbuild -->
 
   </body>
 </html>
