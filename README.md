@@ -26,3 +26,5 @@
 
 #Notes as I work - 
 -Styling Guide font mispelled. Font source: https://www.google.com/fonts/specimen/Rajdhani
+-Don't forget you have glyphcons available
+-Make sure you add issues at 4PM and write out next steps
