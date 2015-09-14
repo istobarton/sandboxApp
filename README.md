@@ -31,9 +31,9 @@ If you have any questions do not hesitate to ask. We'll be expecting these by CO
 
 
 #Notes as I work - 
--Styling Guide font mispelled. Font source: https://www.google.com/fonts/specimen/Rajdhani
--Don't forget you have glyphcons available
--Make sure you add issues at 4PM and write out next steps
--Add contact information to footer
--Does this need to adjust the content within the APP image? Or is this just styling? Adjust for timing.
--Are the '<>' on the user input form actual tags or images? 
+- Styling Guide font mispelled. Font source: https://www.google.com/fonts/specimen/Rajdhani
+- Don't forget you have glyphcons available
+- Make sure you add issues at 4PM and write out next steps
+- Add contact information to footer
+- Does this need to adjust the content within the APP image? Or is this just styling? Adjust for timing.
+- Are the '<>' on the user input form actual tags or images? 

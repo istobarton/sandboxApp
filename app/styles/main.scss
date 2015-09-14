@@ -1,31 +1,35 @@
-/*Color Pallete*/
-$pantone138C: #F3930D; /*orange*/
-$pantone171C: #EF7540; /*salmon*/
-$pantone412C: #190E00; /*dark-black*/
-$pantone395C: #F4ED35; /*yellow*/
-$pantone601C: #FDF8A7; /*meringue*/
-$pantoneBlack7: #F3930D; /*grey*/
-$white: #ffffff; /*not in style-guide, but on website*/
+  
+/*THEMATICE CHOICES*/
+  /*Color Pallete*/
+  $pantone138C: #F3930D; /*orange*/
+  $pantone171C: #EF7540; /*salmon*/
+  $pantone412C: #190E00; /*dark-black*/
+  $pantone395C: #F4ED35; /*yellow*/
+  $pantone601C: #FDF8A7; /*meringue*/
+  $pantoneBlack7: #F3930D; /*grey*/
+  $white: #ffffff; /*not in style-guide, but on website*/
 
 
-/*Fonts*/
-@import url(https://fonts.googleapis.com/css?family=Rajdhani:400,700,300);
+  /*Fonts*/
+  @import url(https://fonts.googleapis.com/css?family=Rajdhani:400,700,300);
 
-$main : 'Rajdhani', sans-serif;
+  $main : 'Rajdhani', sans-serif;
 
-$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+  $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
-// bower:scss
-@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
-// endbower
+  // bower:scss
+  @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+  // endbower
 
-/* FOR IE10 Users */
-.browsehappy {
-  margin: 0.2em 0;
-  background: #ccc;
-  color: #000;
-  padding: 0.2em 0;
-}
+  /* FOR IE10 Users */
+  .browsehappy {
+    margin: 0.2em 0;
+    background: #ccc;
+    color: #000;
+    padding: 0.2em 0;
+  }
+
+/*PAGE CONTENT*/
 
 /* NAVBAR */
 .header {
@@ -40,10 +44,17 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   }
 }
 
-.navbar-brand {
-  height: inherit;
-  img{
-    height: 50px;
+
+
+.navbar-default {
+  background-color: $pantone412C;
+  border-color: $pantoneBlack7;
+
+  .navbar-brand {
+    height: inherit;
+    img{
+      height: 50px;
+    }
   }
 }
 
