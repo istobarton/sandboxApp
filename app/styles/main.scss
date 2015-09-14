@@ -5,13 +5,13 @@ $pantone412C: #190E00; /*dark-black*/
 $pantone395C: #F4ED35; /*yellow*/
 $pantone601C: #FDF8A7; /*meringue*/
 $pantoneBlack7: #F3930D; /*grey*/
+$white: #ffffff; /*not in style-guide, but on website*/
 
 
 /*Fonts*/
 @import url(https://fonts.googleapis.com/css?family=Rajdhani:400,700,300);
 
-$rajdhani : 'Rajdhani', sans-serif;
-
+$main : 'Rajdhani', sans-serif;
 
 $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
@@ -19,6 +19,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 @import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
 // endbower
 
+/* FOR IE10 Users */
 .browsehappy {
   margin: 0.2em 0;
   background: #ccc;
@@ -26,21 +27,7 @@ $icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
   padding: 0.2em 0;
 }
 
-/* Space out content a bit */
-body {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
-/* Everything but the jumbotron gets side spacing for mobile first views */
-.header,
-.marketing,
-.footer {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-/* Custom page header */
+/* NAVBAR */
 .header {
   border-bottom: 1px solid #e5e5e5;
 
@@ -53,33 +40,31 @@ body {
   }
 }
 
+.navbar-brand {
+  height: inherit;
+  img{
+    height: 50px;
+  }
+}
+
+
+/*USER INPUT*/
+.userFormNavBar{
+  text-decoration: none;
+  font-family: $main;
+  }
+
+
+/*APP CONTENT*/
+.appContent{
+  background-color: black;
+  }
+
 /* Custom page footer */
 .footer {
   padding-top: 19px;
-  color: #777;
+  color: $white;
   border-top: 1px solid #e5e5e5;
-}
-
-.container-narrow > hr {
-  margin: 30px 0;
-}
-
-/* Main marketing message and sign up button */
-.jumbotron {
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
-  .btn {
-    font-size: 21px;
-    padding: 14px 24px;
-  }
-}
-
-/* Supporting marketing content */
-.marketing {
-  margin: 40px 0;
-  p + h4 {
-    margin-top: 28px;
-  }
 }
 
 /* Responsive: Portrait tablets and up */
@@ -88,22 +73,9 @@ body {
     max-width: 730px;
   }
 
-  /* Remove the padding we set earlier */
-  .header,
-  .marketing,
-  .footer {
-    padding-left: 0;
-    padding-right: 0;
-  }
-
   /* Space out the masthead */
   .header {
     margin-bottom: 30px;
-  }
-
-  /* Remove the bottom border on the jumbotron for visual effect */
-  .jumbotron {
-    border-bottom: 0;
   }
 }
 

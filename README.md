@@ -1,5 +1,11 @@
 ##Isto's work for Sandbox App
 
+"So the project we're going to have you work on is redesigning a few screens for an existing application editor. A few guidelines would be to utilize the sidebar area to improve the flow of the user experience and to don't be afraid to overhaul the entire workflow design. I've attached a branding guidelines png. as well!"
+
+Link to Google Drive folder with styleguide and images: https://drive.google.com/drive/folders/0BzoHrXVpe37cXzdjRWw2anUwMUk
+
+If you have any questions do not hesitate to ask. We'll be expecting these by COB Monday!"
+
 #Initial notes - 
 - too much white space
 - phone image too small 
@@ -28,3 +34,6 @@
 -Styling Guide font mispelled. Font source: https://www.google.com/fonts/specimen/Rajdhani
 -Don't forget you have glyphcons available
 -Make sure you add issues at 4PM and write out next steps
+-Add contact information to footer
+-Does this need to adjust the content within the APP image? Or is this just styling? Adjust for timing.
+-Are the '<>' on the user input form actual tags or images? 

@@ -20,6 +20,7 @@
      <!NAVBAR>
     <nav class="navbar navbar-default">
       <div class="container-fluid">
+
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -28,7 +29,10 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+
+          <a class="navbar-brand sandboxLogo" href="#">
+            <img src="../images/sandboxSecondary.png" />
+          </a>
         </div>
 
         <!-- Collect the nav links, forms, and other content for toggling -->
@@ -49,15 +53,44 @@
 
       <!USERFORM>
         <div class="col-sm-6">
-          <h4>USERFORM</h4>
-          <p>USER INPUT FORM GOES HERE.</p>    
+          <div class="userFormNavBar">
+            <h4><a href="#">NAME</a></h4>
+            <h4><a href="#">CONTENT</a></h4>
+            <h4><a href="#">CREATE</a></h4>
+            <p>USER INPUT FORM GOES HERE.</p>
+          </div>    
         </div>
 
         <!APP DISPLAY>
           <div class="col-sm-6">
-            <h4>APP</h4>
-            <p>APP DISPLAY GOES HERE.</p>
-          </div>
+            <h4>Your App's Name Here</h4>
+
+            <!APP DISPLAY>
+            <div class="dropdown">
+              <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                <!Options Taken from Top-10 Selling Phones for April>
+                <li><a href="#">Apple iPhone 6</a></li>
+                <li><a href="#">Apple iPhone 6 Plus</a></li>
+                <li><a href="#">Apple iPhone 5</a></li>
+                <li><a href="#">Samsung Galaxy S6</a></li>
+                <li><a href="#">Samsung Galaxy S6 Edge</a></li>
+                <li><a href="#">Samsung Galaxy S5</a></li>
+                <li><a href="#">Xiaomi  Redmi </a></li>
+                <li><a href="#">Xiaomi  Redmi Note</a></li>
+                <li><a href="#">Microsoft Lumia 435</a></li>
+              </ul>
+            </div> <!close dropdown>
+
+
+            <div class="col-lg-10 col-lg-offset-1">
+              <div class="appContent">test</div>
+            </div>
+
+          </div> <!close col-sm-6>
 
         <!FOOTER>
         <div class="footer">
